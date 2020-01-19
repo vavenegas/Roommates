@@ -12,7 +12,7 @@ class SummaryofPI4 : AppCompatActivity() {
         setContentView(R.layout.activity_main2)
 
         keepSwipe.setOnClickListener {
-            val intent = Intent(this, Register::class.java)//chang to swipe later
+            val intent = Intent(this, Profilethree::class.java)//chang to swipe later
             startActivity(intent)
         }
     }

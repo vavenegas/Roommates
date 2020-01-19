@@ -3,6 +3,7 @@ package com.example.personalinforoommate
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.personalinforoommate.ProfileTwo
 import kotlinx.android.synthetic.main.activity_yayyy.*
 
 class yayyy : AppCompatActivity() {
@@ -17,7 +18,7 @@ class yayyy : AppCompatActivity() {
         }
 
         skip.setOnClickListener {
-            val intent = Intent (this, Register::class.java) // change it to swipe page
+            val intent = Intent (this, ProfileTwo::class.java) // change it to swipe page
             startActivity(intent);
         }
 

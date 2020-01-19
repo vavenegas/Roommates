@@ -1,4 +1,4 @@
-package com.example.eve_wxmanhacks
+package com.example.personalinforoommate
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

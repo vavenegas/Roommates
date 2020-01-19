@@ -1,4 +1,4 @@
-package com.example.eve_wxmanhacks
+package com.example.personalinforoommate
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -16,6 +16,11 @@ class ProfileTwo : AppCompatActivity() {
             val intent = Intent(this, ProfileOne::class.java)
             startActivity(intent)
 
+        }
+
+        happybutton2.setOnClickListener {
+            val intent = Intent(this, Profilethree::class.java)
+            startActivity(intent)
         }
     }
 }

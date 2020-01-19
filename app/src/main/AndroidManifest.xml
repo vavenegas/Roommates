@@ -23,6 +23,12 @@
         <activity android:name=".Matcher"/>
         <activity android:name=".Register"/>
         <activity android:name=".yayyy"/>
+        <activity android:name="ProfileTwo"/>
+        <activity android:name="ProfileOne"/>
+        <activity android:name="Profilethree"/>
+        <activity android:name="SimilarityOfYourRoomate"/>
+        <activity android:name=".MainActivity"/>
+
 
         <activity android:name=".PersonalInfo3">
             <intent-filter>
