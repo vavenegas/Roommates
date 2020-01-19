@@ -33,7 +33,7 @@
         android:id="@+id/textView2"
         android:layout_width="258dp"
         android:layout_height="73dp"
-        android:text="Where will you most likely \n be housed next year"
+        android:text="Where will you most likely \n be housed next year?"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
