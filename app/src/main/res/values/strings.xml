@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">PersonalInfoRoommate</string>
+
+
+    <string name="number_label">These are the \nnumber of matches</string>
+    <string name="similarity_level"> How similar  \nwould you like  \n your future roommate?</string>
+    <string name="VerySim"> Similar </string>
+    <string name="Sim">Moderately \nSimilar</string>
+    <string name="Opposite">Opposite</string>
+    <string name="Spongebob">"Just a simple dude \nwho lives in a pineapple under the sea"</string>
+    <string name="Bio">BIO:</string>
+    <string name="Powerpuff">"I am a good fighter."</string>
+    <string name="Popeye"> “I am strong to the finish cause I eats me spinach.” </string>
+    <string name="Next">Next</string>
+
 </resources>

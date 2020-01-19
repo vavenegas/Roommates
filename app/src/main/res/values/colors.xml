@@ -7,4 +7,15 @@
     <color name="redtastic">#ff3061</color>
     <color name="white">#FFFFFF</color>
 
+    <color name="seek_bar_background">#ababab</color>
+    <color name="seek_bar_progress">#ffb600</color>
+    <color name="seek_bar_secondary_progress">#3399CC</color>
+    <color name= "text_similarity">#dccfe1</color>
+    <color name="Primary">#262938</color>
+    <color name="PrimaryDark">#181A24</color>
+    <color name="Accent">#FF4081</color>
+    <color name="TransparentWhite">#CCCCCC</color>
+    <color name="colorDarkBlue">#000080</color>
+    <color name="colorBackground">#ffd1dc</color>
+
 </resources>
