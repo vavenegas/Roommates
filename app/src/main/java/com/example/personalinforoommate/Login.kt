@@ -13,7 +13,7 @@ class Login : AppCompatActivity() {
         setContentView(R.layout.activity_login)
 
         loginBt.setOnClickListener {
-            val intent = Intent ( this, PersonalInfo3 ::class.java) //change the file name to the personal info
+            val intent = Intent ( this, PersonalInfo3 ::class.java)
             startActivity(intent);
         }
 

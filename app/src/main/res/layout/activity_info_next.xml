@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B9A3E6"
+    tools:context=".infoNext">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="316dp"
+        android:layout_height="441dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.434">
+
+        <EditText
+            android:id="@+id/zodiacSignEditTextL3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="zodiac sign"
+            android:inputType="textPersonName"
+            android:textSize="10sp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/hobbiesEditTextL3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="hobbies"
+            android:inputType="textPersonName"
+            android:textSize="10sp"
+            app:layout_constraintTop_toBottomOf="@+id/zodiacSignEditTextL3" />
+
+        <EditText
+            android:id="@+id/likesEditTextL3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="likes"
+            android:inputType="textPersonName"
+            android:textSize="10sp"
+            app:layout_constraintTop_toBottomOf="@+id/hobbiesEditTextL3" />
+
+        <EditText
+            android:id="@+id/dislikesEditTextL3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="dislikes"
+            android:inputType="textPersonName"
+            android:textSize="10sp"
+            app:layout_constraintTop_toBottomOf="@+id/likesEditTextL3" />
+
+        <EditText
+            android:id="@+id/earlyOrlateEditTextL3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="early bird or night owl?"
+            android:inputType="textMultiLine"
+            android:textSize="10sp"
+            app:layout_constraintTop_toBottomOf="@+id/dislikesEditTextL3" />
+
+
+        <EditText
+            android:id="@+id/wakeUpHourEditTextL3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="On average, what time do you get out of bed?"
+            android:inputType="textMultiLine"
+            android:textSize="10sp"
+            app:layout_constraintTop_toBottomOf="@+id/earlyOrlateEditTextL3" />
+
+        <EditText
+            android:id="@+id/sexualOrientationEditTextL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="176dp"
+            android:layout_marginBottom="132dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="sexual orientation (eg. straight, gay, bisexual, etc."
+            android:inputType="textMultiLine"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="107dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="58dp"
+        android:text="finish"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.36" />
+</androidx.constraintlayout.widget.ConstraintLayout>

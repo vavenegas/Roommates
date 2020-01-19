@@ -13,7 +13,7 @@ class PersonalInfo3 : AppCompatActivity() {
 
 
         FinishButtonL3.setOnClickListener {
-            val intent = Intent(this, SummaryofPI4::class.java)
+            val intent = Intent(this, infoNext::class.java)
             startActivity(intent)
 
         }

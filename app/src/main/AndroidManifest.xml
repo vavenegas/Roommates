@@ -9,9 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".questionsPage"></activity>
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".questionsPage" />
         <activity android:name=".onOffCampus" />
         <activity android:name=".SummaryofPI4" />
+        <activity android:name=".infoNext"/>
+        <activity android:name=".Matcher"/>
+        <activity android:name=".Register"/>
+        <activity android:name=".yayyy"/>
+
         <activity android:name=".PersonalInfo3">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
